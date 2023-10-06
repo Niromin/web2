@@ -1,0 +1,24 @@
+@baseUrl = http://localhost:3000
+
+### Create film
+
+
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "title": "Robin des bois",
+    "duration": 12,
+    "budget": 3,
+    "link": "zeLink.be",
+}
+
+
+### Read film with ID == 1
+GET {{baseUrl}}/films/1
+
+### Read all films
+GET {{baseUrl}}/films
+
+### Read all filtered films
+GET {{baseUrl}}/films?order=title
