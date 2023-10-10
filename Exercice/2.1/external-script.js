@@ -12,10 +12,4 @@ console.log(dateTimeNow.toLocaleTimeString()); // 13:26:15
 return date + ' ' + hour + ' ' + ': ' + message
 }
 
-
-
-
-
-
-
 alert(fullMessage);
